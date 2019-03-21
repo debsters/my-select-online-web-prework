@@ -5,5 +5,5 @@ def my_select(collection)
       new_array << yield(array[i])
     i = i + 1
     end
-  new_array[i]
+  new_array = i == true
 end
